@@ -1,0 +1,18 @@
+{
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"userdefined\" at 'person': Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "person",
+            "description": "Invalid JSON payload received. Unknown name \"userdefined\" at 'person': Cannot find field."
+          }
+        ]
+      }
+    ]
+  }
+}
